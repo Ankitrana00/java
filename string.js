@@ -26,4 +26,4 @@ const url = "http://www.ankit.com/ankit%50ramna"
 console.log(url.replace('%50',"-"));
 
 console.log(gameName.split('-'));
-
+ 

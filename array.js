@@ -46,7 +46,7 @@
 // const another_Array = array.flat(Infinity);
 // console.log(another_Array);
 
-console.log(Array.isArray("ankit"));
+// console.log(Array.isArray("ankit"));
 // console.log(Array.from("ankit"));
 // console.log(Array.from({name:"ankit"}));
  

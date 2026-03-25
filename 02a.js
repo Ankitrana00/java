@@ -16,6 +16,6 @@
 //let negvalue = -value
 //console.log(negvalue)
 
-let gamecounter= 100
-gamecounter++
-console.log(gamecounter)
+// let gamecounter= 100
+//gamecounter++
+//console.log(gamecounter)

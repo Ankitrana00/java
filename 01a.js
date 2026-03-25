@@ -1,12 +1,12 @@
 
-console.log("ankitrana")
+//console.log("ankitrana")
 
-const accountId = 13412
-let accountEmail = "ankit2gmail.com"
-var accountPass = "123"
-accountCity = "palwal"
+//const accountId = 13412
+//let accountEmail = "ankit2gmail.com"
+//var accountPass = "123"
+//accountCity = "palwal"
 
 
-accountPass = "lkkwei"
+//accountPass = "lkkwei"
 
-console.table([ accountEmail, accountId , accountPass , accountCity]);
+//console.table([ accountEmail, accountId , accountPass , accountCity]);
