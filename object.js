@@ -2,16 +2,16 @@
 // // // ex - object literals 
 // // // object.create
 
-// // const mySymbol = Symbol("key1")
+// const mySymbol = Symbol("key1")
 
-// // const user = {
-// //     "name" : "ankit",
-// //     "age" : 32,
-// //     "email" : "ankit@google.com",
-// //     "location" : "moj",
-// //     [mySymbol] : "key1",
+// const user = {
+//     "name" : "ankit",
+//     "age" : 32,
+//     "email" : "ankit@google.com",
+//     "location" : "moj",
+//     [mySymbol] : "key1",
 
-// // }
+// }
 
 // // console.log(user["name"])
 // // console.log(user[mySymbol])
@@ -29,8 +29,8 @@
 // //     console.log("hello user");
 // // }
 
-// // user.greetingTwo = function(){
-// //     console.log(`hello users $(this.name)`);
+// user.greetingTwo = function(){
+//     console.log(`hello users ${this.name}`);
 
 // // }
 
