@@ -120,13 +120,33 @@
 //  }
 // coding.forEach(printMe)
 
-const coding = [
-    { language: "js", name: "JavaScript" },
-    { language: "py", name: "Python" },
-    { language: "rb", name: "Ruby" },
-]
+// const coding = [
+//     { language: "js", name: "JavaScript" },
+//     { language: "py", name: "Python" },
+//     { language: "rb", name: "Ruby" },
+// ]
 
-coding.forEach( (item) =>{
-    console.log(item.name);
+// coding.forEach( (item) =>{
+//     console.log(item.name);
     
+// })
+
+// undefined 
+// const coding = ["js", "rb", "cpp"]
+// const value = coding.forEach( (item)=> {
+//     console.log(item);
+//     return item;
+// })
+// console.log(value);
+
+const myNums = [1, 2, 3, 4, 5]
+// const newNum = myNums.filter( (num) => num >3)
+// console.log(newNum);
+// with foreach
+const newNum = []
+myNums.forEach( (num) => {
+    if (num>3){
+        newNum.push(num)
+    }
 })
+console.log(newNum);
